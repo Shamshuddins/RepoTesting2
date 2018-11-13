@@ -28,7 +28,7 @@ public class OpportunityTest {
     driver.findElement(By.xpath("//div[@id='username_container']/input")).clear();
     driver.findElement(By.xpath("//div[@id='username_container']/input")).sendKeys("shamshuddink8@gmail.com");
     driver.findElement(By.xpath("//form[@id='login_form']/input")).clear();
-    driver.findElement(By.xpath("//form[@id='login_form']/input")).sendKeys("Rabit@147");
+    driver.findElement(By.xpath("//form[@id='login_form']/input")).sendKeys("Qazwsx@123");
     driver.findElement(By.xpath("//form[@id='login_form']/input[2]")).click();
     driver.findElement(By.xpath("//li[@id='Opportunity_Tab']/a")).click();
     driver.findElement(By.xpath("//form[@id='hotlist']/table/tbody/tr/td[2]/input")).click();
