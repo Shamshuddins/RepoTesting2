@@ -1,0 +1,13 @@
+componentName,DataRowID,URL,userName,passWord,navigateToCH_Home,loginAs,searchValue,data,userData
+psLogin,Agency,,sujatawebuagencyuser@coca-cola.com,password123,,,,Agency,
+psHomePageValidation,test,,,,,,,,Sujata WEBU Marketer
+psCreateProjectStatementPage1,test,,,,,,NewPS,WEBU Test Agency,Sujata WEBU Agency User|Hourly Rate Card (Specific to vendor & capability)|Coca-Cola
+psCreateProjectStatementPage2,SelectAll,,,,,,,SelectAll,
+psCreateProjectStatementPage2,Random,,,,,,,Random,
+psCreateProjectStatementPage3,Continue,,,,,,,Continue,
+psCreateProjectStatementPage3,Send,,,,,,,Send,
+psCreatePitchAgreementPage1,test,,,,,,NewPitch,Sujata Test Agency,
+psStaffing,SelectAll,,,,,,,SelectAll,
+psStaffing,Random,,,,,,,Random,
+psReview,Send,,,,,,,Send,
+psReview,Cancel,,,,,,,Cancel,
