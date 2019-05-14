@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+Test set: net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 54.021 sec <<< FAILURE! - in net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest
+add_a_leather_jacket_to_the_cart(net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest)  Time elapsed: 51.828 sec  <<< ERROR!
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
+	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
+	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
+	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
+	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:131)
+	at org.openqa.selenium.firefox.XpiDriverService.start(XpiDriverService.java:118)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:83)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:58)
+	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:127)
+	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:149)
+	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:140)
+	at net.thucydides.core.webdriver.WebDriverFacade.getProxiedDriver(WebDriverFacade.java:110)
+	at net.thucydides.core.webdriver.WebDriverFacade.get(WebDriverFacade.java:181)
+	at net.serenitybdd.core.pages.PageObject.openPageAtUrl(PageObject.java:860)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:761)
+	at net.serenitybdd.core.pages.PageObject.open(PageObject.java:749)
+	at net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.opens_home_page(BuyerSteps.java:23)
+	at net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps$$EnhancerByCGLIB$$c00ec73c.CGLIB$opens_home_page$1(<generated>)
+	at net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps$$EnhancerByCGLIB$$c00ec73c$$FastClassByCGLIB$$c2703424.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:449)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:434)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:409)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:150)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:137)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:68)
+	at net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps$$EnhancerByCGLIB$$c00ec73c.opens_home_page(<generated>)
+	at net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java:22)
+

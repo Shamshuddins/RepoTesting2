@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add a new pet","Add a dog","SUCCESS","2019-05-14T11:22:55.814+05:30[Asia/Calcutta]","0.0","20.99"
+"Search by keyword","Search for articles by keyword","ERROR","2019-05-14T11:23:17.299+05:30[Asia/Calcutta]","0.0","52.07"
+"Search by keyword","Search by shop name","ERROR","2019-05-14T11:24:09.401+05:30[Asia/Calcutta]","0.0","115.07"
+"Search by keyword","Search for many articles by keyword","ERROR","2019-05-14T11:26:04.472+05:30[Asia/Calcutta]","0.0","106.35"
