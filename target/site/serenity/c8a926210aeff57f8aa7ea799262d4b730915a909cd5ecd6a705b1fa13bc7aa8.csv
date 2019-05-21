@@ -1,8 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"Add stuff to the shopping cart test","Add a leather jacket to the cart","ERROR","2019-05-14T11:22:01.219+05:30[Asia/Calcutta]","0.0","54.16"
-"Display product details","Display product details from the search list","ERROR","2019-05-14T11:20:16.162+05:30[Asia/Calcutta]","0.0","50.66"
-"Display product details","Display social media links for a product","ERROR","2019-05-14T11:21:06.898+05:30[Asia/Calcutta]","0.0","50.78"
-"Search by keyword","Search for articles by keyword","ERROR","2019-05-14T11:23:17.299+05:30[Asia/Calcutta]","0.0","52.07"
-"Search by keyword","Search by shop name","ERROR","2019-05-14T11:24:09.401+05:30[Asia/Calcutta]","0.0","115.07"
-"Search by keyword","Search for many articles by keyword","ERROR","2019-05-14T11:26:04.472+05:30[Asia/Calcutta]","0.0","106.35"
-"Add an item to the shopping cart","Add item to cart","ERROR","2019-05-14T11:18:57.69+05:30[Asia/Calcutta]","0.0","58.06"

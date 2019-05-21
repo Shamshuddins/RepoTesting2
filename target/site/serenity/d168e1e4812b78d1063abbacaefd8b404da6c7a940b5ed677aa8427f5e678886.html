@@ -85,7 +85,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-05-2019 11:22</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-05-2019 15:23</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -125,9 +125,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                    <span class="error-color">
+                                    <span class="failing-color">
                                     Add a leather jacket to the cart
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -155,20 +155,21 @@
                     <th width="65">                        &nbsp;
                     </th>
 
-                    <th width="%" class="step-description-wide-column greentext">
+                    <th width="%" class="step-description-column greentext">
                         Steps
                     </th>
+                    <th width="120" class="greentext">Screenshot</th>
                     <th width="100" class="greentext">Outcome</th>
                     <th width="75" class="greentext">Duration</th>
                 </tr>
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-ERROR">
+                <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -178,24 +179,59 @@
 
                         </div>
                     </td>
-                    <td width="100"><span class="top-level-step">ERROR</span></td>
-                    <td width="100"><span class="top-level-step">50.85s</span></td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="d168e1e4812b78d1063abbacaefd8b404da6c7a940b5ed677aa8427f5e678886_screenshots.html#screenshots?screenshot=0">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="2d10fae48d2b9344f49e2a34ed63d345010b8c266e2ee9e8dd2ab1bd38d2aa0e.png"
+                                         href="2d10fae48d2b9344f49e2a34ed63d345010b8c266e2ee9e8dd2ab1bd38d2aa0e.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">13.3s</span></td>
                 </tr>
-                    <tr class="test-ERROR">
+                <tr class="test-FAILURE">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Searches by keyword: leather jacket
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="FAILURE-text">
+                                <a href="d168e1e4812b78d1063abbacaefd8b404da6c7a940b5ed677aa8427f5e678886_screenshots.html#screenshots?screenshot=1">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="2d10fae48d2b9344f49e2a34ed63d345010b8c266e2ee9e8dd2ab1bd38d2aa0e.png"
+                                         href="2d10fae48d2b9344f49e2a34ed63d345010b8c266e2ee9e8dd2ab1bd38d2aa0e.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="top-level-step">FAILURE</span></td>
+                    <td width="100"><span class="top-level-step">7.19s</span></td>
+                </tr>
+                    <tr class="test-FAILURE">
                         <td width="40">&nbsp</td>
                         <td width="%" colspan="4" class="error-message-cell">
                             <div class="error-message ellipsis"
-                                 title='Unsupported driver exception: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver'>
-                                <pre>Unsupported driver exception: Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</pre>
+                                 title='Element should be enabled exception: Expected enabled element was not enabled'>
+                                <pre>Element should be enabled exception: Expected enabled element was not enabled</pre>
                             </div>
                 <div><!-- Stack trace -->
                     <button type="button" class="btn btn-danger" data-toggle="modal"
-                            data-target="#stacktraceModal-1">
+                            data-target="#stacktraceModal-2">
                         View details
                     </button>
                 </div>
                 <!-- Modal -->
-                <div class="modal fade" id="stacktraceModal-1" tabindex="-1" role="dialog"
+                <div class="modal fade" id="stacktraceModal-2" tabindex="-1" role="dialog"
                      aria-labelledby="stacktraceModalLabel" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
@@ -204,17 +240,19 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="stacktraceModalLabel">
-                                    net.thucydides.core.webdriver.UnsupportedDriverException
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
                                 </h4>
                             </div>
                             <div class="modal-body">
                                     <h5>
-                                        <pre>Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver</pre>
+                                        <pre>Expected enabled element was not enabled</pre>
                                     </h5>
-                                    net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.opens_home_page(BuyerSteps.java
-                                    :23) <br>
+                                    net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java
+                                    :25) <br>
+                                    net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java
+                                    :28) <br>
                                     net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java
-                                    :22) <br>
+                                    :23) <br>
                             </div>
 
                                 <div class="modal-header">
@@ -222,14 +260,15 @@
                                             aria-label="Close"><span aria-hidden="true">&times;</span>
                                     </button>
                                     <h4 class="modal-title" id="stacktraceModalLabel">
-                                        Caused by: net.thucydides.core.webdriver.UnsupportedDriverException
+                                        Caused by: org.openqa.selenium.TimeoutException
                                     </h4>
                                 </div>
                                 <div class="modal-body">
-                                        <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.<br>Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'<br>System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'<br>Driver info: driver.version: FirefoxDriver</pre>
+                                        <pre>Expected condition failed: waiting for By.cssSelector: #search-query to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
                                     <pre>
-                                        net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.opens_home_page(BuyerSteps.java :23) <br>
-                                        net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java :22) <br>
+                                        net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java :25) <br>
+                                        net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java :28) <br>
+                                        net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java :23) <br>
                                     </pre>
                                 </div>
 
@@ -243,10 +282,105 @@
                 </div>
                         </td>
                     </tr>
-                <tr class="test-ERROR">
-                    <td colspan="2"></td>
-                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>54.16s</em></span></td>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Filters by local region
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0.02s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Selects listing: 2
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Adds current listing to cart
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Should see item in cart: Mock for ListingItem, hashCode: 1483998054
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-SKIPPED">
+                    <td width="60" class="step-icon">
+                        <a name="6"/>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="top-level-step">
+                                Should see total including shipping for: Mock for ListingItem, hashCode: 1483998054
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SKIPPED-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
+                </tr>
+                <tr class="test-FAILURE">
+                    <td colspan="3"></td>
+                    <td width="100"><span class="top-level-step"><em>FAILURE</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>22.26s</em></span></td>
                 </tr>
 
             </table>

@@ -12,7 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.concurrent.TimeUnit;
 
-@DefaultUrl("https://www.etsy.com")
+@DefaultUrl("https://www.google.com")
 public class HomePage extends PageObject {
 
     @FindBy(xpath="//form[@id='search-bar']//button[@type='submit']")

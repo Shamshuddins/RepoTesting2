@@ -49,11 +49,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 1],
+                ['Passing', 0],
                 ['Pending', 0],
                 ['Ignored', 0],
-                ['Failing', 0],
-                ['Errors',  4],
+                ['Failing', 2],
+                ['Errors',  0],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -82,11 +82,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 requirements tested successfully'},
+                {label: '0 requirements tested successfully'},
                 {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
-                {label: '0} requirements with failures'},
-                {label: '4} requirements with errors'},
+                {label: '2} requirements with failures'},
+                {label: '0} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -186,7 +186,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 14-05-2019 11:18</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 21-05-2019 15:23</span>
     <br style="clear:left"/>
 </div>
 
@@ -219,18 +219,18 @@
                                     <tr>
                                         <td class="summary-leading-column"><a
                                                 href="#requirements-tabs">Capabilities</a></td>
-                                        <td>3</td>
-                                        <td>1</td>
+                                        <td>2</td>
                                         <td>0</td>
+                                        <td>2</td>
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
                                     <tr>
                                         <td class="summary-leading-column"><a
                                                 href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html">Features</a></td>
-                                        <td>5</td>
-                                        <td>1</td>
+                                        <td>2</td>
                                         <td>0</td>
+                                        <td>2</td>
                                         <td>0</td>
                                         <td>0</td>
                                     </tr>
@@ -238,9 +238,9 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>10</td>
-                                    <td>1</td>
-                                    <td>9</td>
+                                    <td>6</td>
+                                    <td>0</td>
+                                    <td>6</td>
                                     <td>0</td>
                                     <td>0</td>
                                     <td></td>
@@ -269,9 +269,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>10</td>
-            <td>1 (10%)</td>
-            <td>9 (90%)</td>
+            <td>6</td>
+            <td>0 (0%)</td>
+            <td>6 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -285,15 +285,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>10</td>
-            <td>1 (10%)</td>
-            <td>9 (90%)</td>
+            <td>6</td>
+            <td>0 (0%)</td>
+            <td>6 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">8 minutes 28 seconds</td>
+                <td colspan="5">2 minutes 6 seconds</td>
         </tr>
         </body>
     </table>
@@ -304,7 +304,7 @@
                 <div id="requirements-tabs">
                         <ul>
                                 <li><a href="#tabs-1">
-                                    Capabilities (3)
+                                    Capabilities (2)
                                 </a></li>
                         </ul>
                         <div id="tabs-1" class="capabilities-table">
@@ -331,18 +331,18 @@
 
 
 
-                <tr class="test-SUCCESS requirementRow">
+                <tr class="test-FAILURE requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                        <span style="display:none">1</span>
+                        <span class="status_icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                        <span style="display:none">3</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="SUCCESS-text requirementRowCell">
+                    <td class="FAILURE-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
-                                href="e66deaedfb276439cd6e0620717037091ec59b3039be576d1a2ce82a2fcb9880.html">Petstore</a></span>
+                                href="b819c44c03efece2af680c5ff303e16ade15338cf5d007b79777624a0976f511.html">Shopping cart</a></span>
 
                         <div class="requirementNarrative read-more-text"></div>
                     </td>
@@ -351,9 +351,9 @@
 
                     <td class="greentext highlighted-value requirementRowCell">1</td>
 <!--
-                    <td class="greentext requirementRowCell">1</td>
+                    <td class="greentext requirementRowCell">0</td>
                     <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
+                    <td class="redtext requirementRowCell">1</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
 -->
@@ -371,13 +371,13 @@
 <table>
     <tr>
         <td width="40px">
-            <div class="small">100%</div>
+            <div class="small">0%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
                  title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -385,8 +385,8 @@
                  style="width: 125px;">
                 <div class="pendingbar"
                      title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -395,8 +395,8 @@
                     <div class="ignoredbar"
                          style="width: 125px;"
                          title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -404,8 +404,8 @@
                         <div class="compromisedbar"
                              style="width: 125px;"
                              title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -413,8 +413,8 @@
                             <div class="errorbar"
                                  style="width: 125px;"
                                  title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
@@ -422,440 +422,18 @@
                                 <div class="failingbar"
                                      style="width: 125px;"
                                      title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 125px;"
+                                         style="width: 0px;"
                                          title="  - Total tests: 1
-  - Passing tests: 1 (100%)
-  - Failing tests: 0 (0%)
+  - Passing tests: 0 (0%)
+  - Failing tests: 1 (100%)
   - Tests with errors: 0 (0%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">100%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%"
-                     style="width: 125px;">
-                    <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                        <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                            <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                                <div class="failingbar"
-                                     style="width: 125px;"
-                                     title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                                    <div class="passingbar"
-                                         style="width: 125px;"
-                                         title="Petstore:
-  - Passing Features: 1 (100%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 0
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-                </tr>
-
-
-                <tr class="test-ERROR requirementRow">
-                    <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                        <span style="display:none">4</span>
-                    </td>
-                    <td class="cardNumber requirementRowCell"></td>
-
-                    <td class="ERROR-text requirementRowCell">
-                        <a href="javaScript:void(0)" class="read-more-link">
-                            <img src="images/plus.png" height="16"/></a>
-                        <span class="requirementName"><a
-                                href="feba01ff5ef2d3cd0cc0011b0c2554af120fd05d3edae5b73b41093ad1f1ebb9.html">Search</a></span>
-
-                        <div class="requirementNarrative read-more-text"></div>
-                    </td>
-
-                        <td class="bluetext requirementRowCell">2</td>
-
-                    <td class="greentext highlighted-value requirementRowCell">7</td>
-<!--
-                    <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">7</td>
-                    <td class="violettext requirementRowCell">0</td>
--->
-                        <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                        <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">0</td>
-                        <td class="redtext requirementRowCell">0</td>
-                        <td class="lightorangetext requirementRowCell">0</td>
-                        -->
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">0%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                     style="width: 125px;">
-                    <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                        <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                            <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="  - Total tests: 7
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 7 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">0%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%"
-                     style="width: 125px;">
-                    <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                        <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                            <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                                <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                                    <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="Search:
-  - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
-  - Compromised Features: 0
-  - Pending Features: 0
-  - Ignored or skipped Features: 0
-  - Untested Features: 0 (0%">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-                    </td>
-                </tr>
-
-
-                <tr class="test-ERROR requirementRow">
-                    <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                        <span style="display:none">4</span>
-                    </td>
-                    <td class="cardNumber requirementRowCell"></td>
-
-                    <td class="ERROR-text requirementRowCell">
-                        <a href="javaScript:void(0)" class="read-more-link">
-                            <img src="images/plus.png" height="16"/></a>
-                        <span class="requirementName"><a
-                                href="b819c44c03efece2af680c5ff303e16ade15338cf5d007b79777624a0976f511.html">Shopping cart</a></span>
-
-                        <div class="requirementNarrative read-more-text"></div>
-                    </td>
-
-                        <td class="bluetext requirementRowCell">2</td>
-
-                    <td class="greentext highlighted-value requirementRowCell">2</td>
-<!--
-                    <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">0</td>
-                    <td class="redtext requirementRowCell">0</td>
-                    <td class="lightorangetext requirementRowCell">2</td>
-                    <td class="violettext requirementRowCell">0</td>
--->
-                        <td class="greentext highlighted-value requirementRowCell">0</td>
-<!--
-                        <td class="greentext requirementRowCell">0</td>
-                        <td class="bluetext requirementRowCell">0</td>
-                        <td class="redtext requirementRowCell">0</td>
-                        <td class="lightorangetext requirementRowCell">0</td>
-                        -->
-
-                    <td width="125px" class="lightgreentext requirementRowCell">
-
-
-<table>
-    <tr>
-        <td width="40px">
-            <div class="small">0%</div>
-        </td>
-        <td width="125px">
-            <div class="percentagebar"
-                 title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                 style="width: 125px;">
-                <div class="pendingbar"
-                     title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)"
-                     style="width: 125px;">
-                    <div class="ignoredbar"
-                         style="width: 125px;"
-                         title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                        <div class="compromisedbar"
-                             style="width: 125px;"
-                             title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                            <div class="errorbar"
-                                 style="width: 125px;"
-                                 title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                <div class="failingbar"
-                                     style="width: 0px;"
-                                     title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
-  - Compromised tests 0 (0%)
-  - Pending tests: 0 (0%)
-  - Ignored or skipped tests: 0 (0%)">
-                                    <div class="passingbar"
-                                         style="width: 0px;"
-                                         title="  - Total tests: 2
-  - Passing tests: 0 (0%)
-  - Failing tests: 0 (0%)
-  - Tests with errors: 2 (100%)
   - Compromised tests 0 (0%)
   - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
@@ -883,8 +461,8 @@
             <div class="percentagebar"
                  title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -893,8 +471,8 @@
                 <div class="pendingbar"
                      title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -904,8 +482,8 @@
                          style="width: 125px;"
                          title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -914,8 +492,8 @@
                              style="width: 125px;"
                              title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -924,18 +502,18 @@
                                  style="width: 125px;"
                                  title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
   - Untested Features: 0 (0%">
                                 <div class="failingbar"
-                                     style="width: 0px;"
+                                     style="width: 125px;"
                                      title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -944,8 +522,219 @@
                                          style="width: 0px;"
                                          title="Shopping cart:
   - Passing Features: 0 (0%
-  - Features Failing: 0 (0%
-  - Features Failing with errors: 2
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+                    </td>
+                </tr>
+
+
+                <tr class="test-FAILURE requirementRow">
+                    <td class="requirementRowCell">
+                        <span class="status_icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
+                        <span style="display:none">3</span>
+                    </td>
+                    <td class="cardNumber requirementRowCell"></td>
+
+                    <td class="FAILURE-text requirementRowCell">
+                        <a href="javaScript:void(0)" class="read-more-link">
+                            <img src="images/plus.png" height="16"/></a>
+                        <span class="requirementName"><a
+                                href="feba01ff5ef2d3cd0cc0011b0c2554af120fd05d3edae5b73b41093ad1f1ebb9.html">Search</a></span>
+
+                        <div class="requirementNarrative read-more-text"></div>
+                    </td>
+
+                        <td class="bluetext requirementRowCell">1</td>
+
+                    <td class="greentext highlighted-value requirementRowCell">5</td>
+<!--
+                    <td class="greentext requirementRowCell">0</td>
+                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="redtext requirementRowCell">5</td>
+                    <td class="lightorangetext requirementRowCell">0</td>
+                    <td class="violettext requirementRowCell">0</td>
+-->
+                        <td class="greentext highlighted-value requirementRowCell">0</td>
+<!--
+                        <td class="greentext requirementRowCell">0</td>
+                        <td class="bluetext requirementRowCell">0</td>
+                        <td class="redtext requirementRowCell">0</td>
+                        <td class="lightorangetext requirementRowCell">0</td>
+                        -->
+
+                    <td width="125px" class="lightgreentext requirementRowCell">
+
+
+<table>
+    <tr>
+        <td width="40px">
+            <div class="small">0%</div>
+        </td>
+        <td width="125px">
+            <div class="percentagebar"
+                 title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
+                 style="width: 125px;">
+                <div class="pendingbar"
+                     title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
+                     style="width: 125px;">
+                    <div class="ignoredbar"
+                         style="width: 125px;"
+                         title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                        <div class="compromisedbar"
+                             style="width: 125px;"
+                             title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                            <div class="errorbar"
+                                 style="width: 125px;"
+                                 title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                <div class="failingbar"
+                                     style="width: 125px;"
+                                     title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    <div class="passingbar"
+                                         style="width: 0px;"
+                                         title="  - Total tests: 5
+  - Passing tests: 0 (0%)
+  - Failing tests: 5 (100%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+                    </td>
+
+                    <td width="125px" class="lightgreentext requirementRowCell">
+
+
+<table>
+    <tr>
+        <td width="40px">
+            <div class="small">0%</div>
+        </td>
+        <td width="125px">
+            <div class="percentagebar"
+                 title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%"
+                 style="width: 125px;">
+                <div class="pendingbar"
+                     title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%"
+                     style="width: 125px;">
+                    <div class="ignoredbar"
+                         style="width: 125px;"
+                         title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%">
+                        <div class="compromisedbar"
+                             style="width: 125px;"
+                             title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%">
+                            <div class="errorbar"
+                                 style="width: 125px;"
+                                 title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%">
+                                <div class="failingbar"
+                                     style="width: 125px;"
+                                     title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
+  - Compromised Features: 0
+  - Pending Features: 0
+  - Ignored or skipped Features: 0
+  - Untested Features: 0 (0%">
+                                    <div class="passingbar"
+                                         style="width: 0px;"
+                                         title="Search:
+  - Passing Features: 0 (0%
+  - Features Failing: 1 (100%
+  - Features Failing with errors: 0
   - Compromised Features: 0
   - Pending Features: 0
   - Ignored or skipped Features: 0
@@ -988,188 +777,96 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
                                     <div class="ellipsis">
 
                                         <a href="d168e1e4812b78d1063abbacaefd8b404da6c7a940b5ed677aa8427f5e678886.html" class="ellipsis"
-                                           title="Add a leather jacket to the cart Unsupported driver exception: Could n...">
+                                           title="Add a leather jacket to the cart Element should be enabled exception: ...">
                                             Add a leather jacket to the cart
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">1</td>
+                                <td class="FAILURE-text">7</td>
 
 
-                                <td class="ERROR-text" data-sort="2019-05-14 11:22:01">11:22:01</td>
+                                <td class="FAILURE-text" data-sort="2019-05-21 15:23:12">15:23:12</td>
 
-                                <td class="ERROR-text">54.16</td>
+                                <td class="FAILURE-text">22.26</td>
                             </tr>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
-                                    <div class="ellipsis">
-
-                                        <a href="6677f3d52920e569f118e0127df57434f33b32ca542a22c61b3f326ee06bfc73.html" class="ellipsis"
-                                           title="Add a dog ">
-                                            Add a dog
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="SUCCESS-text">5</td>
-
-
-                                <td class="SUCCESS-text" data-sort="2019-05-14 11:22:55">11:22:55</td>
-
-                                <td class="SUCCESS-text">20.99</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="6e64f4a761925e3fa370667a2e2f50c1336f36b6b6811c803f812357e2293f47.html" class="ellipsis"
-                                           title="Display product details from the search list Unsupported driver exception: Could n...">
-                                            Display product details from the search list
-                                                <span class="related-issue-title">(ETSY-101)</span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="ERROR-text">3</td>
-
-
-                                <td class="ERROR-text" data-sort="2019-05-14 11:20:16">11:20:16</td>
-
-                                <td class="ERROR-text">50.66</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="d1f0821044d3a4d9ce41fa52d8f5bfae88a7101072c7b7e2ace13f309193039a.html" class="ellipsis"
-                                           title="Display social media links for a product Unsupported driver exception: Could n...">
-                                            Display social media links for a product
-                                                <span class="related-issue-title">(ETSY-101)</span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="ERROR-text">3</td>
-
-
-                                <td class="ERROR-text" data-sort="2019-05-14 11:21:06">11:21:06</td>
-
-                                <td class="ERROR-text">50.78</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
                                     <div class="ellipsis">
 
                                         <a href="6ef6fbad144d52c124251b5822fd8c97b19b8d4d2341dcf1eebeb040521d5957.html" class="ellipsis"
-                                           title="Search for articles by keyword Unsupported driver exception: Could n...">
+                                           title="Search for articles by keyword Element should be enabled exception: ...">
                                             Search for articles by keyword
                                                 <span class="related-issue-title">(ETSY-102)</span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">4</td>
+                                <td class="FAILURE-text">5</td>
 
 
-                                <td class="ERROR-text" data-sort="2019-05-14 11:23:17">11:23:17</td>
+                                <td class="FAILURE-text" data-sort="2019-05-21 15:23:46">15:23:46</td>
 
-                                <td class="ERROR-text">52.07</td>
+                                <td class="FAILURE-text">12.51</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
                                     <div class="ellipsis">
 
                                         <a href="8456eece3f5b5254c58bccbc96e75b535813d371a94bc49dff345f987ee02a6b.html" class="ellipsis"
-                                           title="Search by shop name Unsupported driver exception: Could n...">
+                                           title="Search by shop name Element should be enabled exception: ...">
                                             Search by shop name&nbsp;(2  examples)
                                                 <span class="related-issue-title">(ETSY-102)</span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">10</td>
+                                <td class="FAILURE-text">14</td>
 
 
-                                <td class="ERROR-text" data-sort="2019-05-14 11:24:09">11:24:09</td>
+                                <td class="FAILURE-text" data-sort="2019-05-21 15:23:58">15:23:58</td>
 
-                                <td class="ERROR-text">115.07</td>
+                                <td class="FAILURE-text">47.33</td>
                             </tr>
 
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                            <tr class="test-FAILURE">
+                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
                                     
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
+                                    <span style="display:none">FAILURE</span></td>
+                                <td class="FAILURE-text">
                                     <div class="ellipsis">
 
                                         <a href="c484424422807ea08f2f7ec0a13938c59071ff400dee16017f56e7469653fcc9.html" class="ellipsis"
-                                           title="Search for many articles by keyword Unsupported driver exception: Could n...">
+                                           title="Search for many articles by keyword Element should be enabled exception: ...">
                                             Search for many articles by keyword&nbsp;(2  examples)
                                                 <span class="related-issue-title">(ETSY-102)</span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="ERROR-text">10</td>
+                                <td class="FAILURE-text">12</td>
 
 
-                                <td class="ERROR-text" data-sort="2019-05-14 11:26:04">11:26:04</td>
+                                <td class="FAILURE-text" data-sort="2019-05-21 15:24:46">15:24:46</td>
 
-                                <td class="ERROR-text">106.35</td>
-                            </tr>
-
-                            <tr class="test-ERROR">
-                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
-                                    
-                                    <span style="display:none">ERROR</span></td>
-                                <td class="ERROR-text">
-                                    <div class="ellipsis">
-
-                                        <a href="90acd76b7c57305849e800553726d13a5130bcae656af6e170345d58bb53270a.html" class="ellipsis"
-                                           title="Add item to cart Unsupported driver exception: Could n...">
-                                            Add item to cart
-                                                <span class="related-issue-title">(ETSY-104)</span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="ERROR-text">5</td>
-
-
-                                <td class="ERROR-text" data-sort="2019-05-14 11:18:57">11:18:57</td>
-
-                                <td class="ERROR-text">58.06</td>
+                                <td class="FAILURE-text">44.34</td>
                             </tr>
                         </tbody>
                     </table>
