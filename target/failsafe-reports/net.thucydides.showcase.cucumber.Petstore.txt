@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: net.thucydides.showcase.cucumber.Petstore
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec <<< FAILURE! - in net.thucydides.showcase.cucumber.Petstore
-initializationError(net.thucydides.showcase.cucumber.Petstore)  Time elapsed: 0 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 sec <<< FAILURE! - in net.thucydides.showcase.cucumber.Petstore
+initializationError(net.thucydides.showcase.cucumber.Petstore)  Time elapsed: 0.001 sec  <<< ERROR!
 java.lang.IllegalArgumentException: Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\petstore
 	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
 	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)

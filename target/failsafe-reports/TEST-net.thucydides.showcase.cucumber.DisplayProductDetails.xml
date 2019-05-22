@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0.004" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
     <property name="java.vm.version" value="25.181-b13"/>
+    <property name="browser" value="true"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="maven.multiModuleProjectDirectory" value="E:\Git Repo\RepoTesting2"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -45,7 +46,7 @@
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify -Dbrowser"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -64,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0.004">
+  <testcase name="initializationError" classname="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0">
     <error message="Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\search\display_product_details.feature" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\search\display_product_details.feature
 	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
 	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)

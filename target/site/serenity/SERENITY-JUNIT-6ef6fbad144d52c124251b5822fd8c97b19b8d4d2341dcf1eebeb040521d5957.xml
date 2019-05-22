@@ -1,35 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="5" name="Search by keyword" skipped="0" tests="5" time="104.18" timestamp="2019-05-21 03:23:46"><testcase name="Search for articles by keyword"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="3" failures="0" name="Search by keyword" skipped="0" tests="3" time="46.12" timestamp="2019-05-21 06:14:34"><testcase name="Search for articles by keyword"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown&#13;
-net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java:25)&#13;
-net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java:28)&#13;
-net.thucydides.showcase.cucumber.steps.SearchScenarioSteps.searchByKeyword(SearchScenarioSteps.java:23)&#13;
-✽.I search for 'wool'(src/test/resources/features/search/search_by_keyword.feature:11)&#13;
-</system-err></testcase><testcase name="Search by shop name"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver&#13;
+net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.opens_home_page(BuyerSteps.java:23)&#13;
+net.thucydides.showcase.cucumber.steps.SearchScenarioSteps.buyerWantsToBuy(SearchScenarioSteps.java:18)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Search by shop name"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: ChromeDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown&#13;
-net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java:25)&#13;
-net.thucydides.showcase.cucumber.pages.HomePage.searchForShopCalled(HomePage.java:47)&#13;
-net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_for_shop_called(BuyerSteps.java:40)&#13;
-net.thucydides.showcase.cucumber.steps.SearchScenarioSteps.whenISearchByShopFor(SearchScenarioSteps.java:39)&#13;
-✽.I search by shop for 'SwankySips'(src/test/resources/features/search/search_by_keyword.feature:16)&#13;
-</system-err></testcase><testcase name="Search for many articles by keyword"><failure message="Expected enabled element was not enabled&#10;Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'&#10;System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown</failure><system-err>Expected enabled element was not enabled
-Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '127.0.0.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown&#13;
-net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java:25)&#13;
-net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java:28)&#13;
-net.thucydides.showcase.cucumber.steps.SearchScenarioSteps.searchByKeyword(SearchScenarioSteps.java:23)&#13;
-✽.I search for 'wool scarf'(src/test/resources/features/search/search_by_keyword.feature:25)&#13;
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: ChromeDriver&#13;
+net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.opens_home_page(BuyerSteps.java:23)&#13;
+net.thucydides.showcase.cucumber.steps.SearchScenarioSteps.givenIWantToSeeArticlesFromAParticularShop(SearchScenarioSteps.java:33)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
 </system-err></testcase></testsuite>
