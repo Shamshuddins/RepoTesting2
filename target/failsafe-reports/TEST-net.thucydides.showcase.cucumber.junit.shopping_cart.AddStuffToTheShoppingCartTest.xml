@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest" time="23.097" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest" time="56.297" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -65,16 +65,16 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="add_a_leather_jacket_to_the_cart" classname="net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest" time="23.097">
-    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;DESKTOP-MS726TJ&apos;, ip: &apos;172.16.0.134&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: unknown" type="net.thucydides.core.webdriver.UnsupportedDriverException">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
+  <testcase name="add_a_leather_jacket_to_the_cart" classname="net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest" time="56.297">
+    <error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.&#10;Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:24:21.231Z&apos;&#10;System info: host: &apos;DESKTOP-MS726TJ&apos;, ip: &apos;172.16.0.205&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;&#10;Driver info: driver.version: FirefoxDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
 	at net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.opens_home_page(BuyerSteps.java:23)
 	at net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java:22)
 </error>
-    <system-err><![CDATA[3514 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Add stuff to the shopping cart test
-5133 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[2806 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - Test Suite Started: Add stuff to the shopping cart test
+4380 [main] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
  _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
 |_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
   | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
@@ -84,19 +84,19 @@ Driver info: driver.version: unknown
 
 TEST STARTED: add_a_leather_jacket_to_the_cart
 -------------------------------------------------------------------
-5133 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
-May 21, 2019 6:14:02 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-May 21, 2019 6:14:22 PM org.openqa.selenium.os.OsProcess checkForError
-SEVERE: org.apache.commons.exec.ExecuteException: Execution failed (Exit value: -559038737. Caused by java.io.IOException: Cannot run program "E:\Git Repo\RepoTesting2\src\test\resources\browser_drivers\chromedriver" (in directory "."): CreateProcess error=193, %1 is not a valid Win32 application)
-26291 [main] ERROR net.thucydides.core.webdriver.WebDriverFacade - FAILED TO CREATE NEW WEBDRIVER_DRIVER INSTANCE class org.openqa.selenium.chrome.ChromeDriver: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
+4381 [main] INFO net.serenitybdd.core.Serenity - TEST NUMBER: 1
+May 22, 2019 11:36:32 AM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+May 22, 2019 11:36:32 AM org.openqa.selenium.remote.DesiredCapabilities firefox
+INFO: Using `new FirefoxOptions()` is preferred to `DesiredCapabilities.firefox()`
+58477 [main] ERROR net.thucydides.core.webdriver.WebDriverFacade - FAILED TO CREATE NEW WEBDRIVER_DRIVER INSTANCE class org.openqa.selenium.firefox.FirefoxDriver: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown
-net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (Timed out waiting for driver server to start.
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+net.thucydides.core.webdriver.UnsupportedDriverException: Could not instantiate new WebDriver instance of type class org.openqa.selenium.firefox.FirefoxDriver (Timed out waiting 45 seconds for Firefox to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
 	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:137)
 	at net.thucydides.core.webdriver.WebDriverFacade.newDriverInstance(WebDriverFacade.java:149)
 	at net.thucydides.core.webdriver.WebDriverFacade.newProxyDriver(WebDriverFacade.java:140)
@@ -145,27 +145,30 @@ Driver info: driver.version: unknown
 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
-Caused by: org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.
+Caused by: org.openqa.selenium.WebDriverException: Timed out waiting 45 seconds for Firefox to start.
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
-Driver info: driver.version: unknown
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:193)
-	at org.openqa.selenium.remote.service.DriverService.start(DriverService.java:179)
-	at net.serenitybdd.core.webdriver.servicepools.DriverServicePool.start(DriverServicePool.java:62)
-	at net.serenitybdd.core.webdriver.servicepools.DriverServicePool.ensureServiceIsRunning(DriverServicePool.java:87)
-	at net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider.getDriverServicePool(ChromeDriverProvider.java:29)
-	at net.serenitybdd.core.webdriver.driverproviders.ChromeDriverProvider.newInstance(ChromeDriverProvider.java:49)
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: FirefoxDriver
+	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:133)
+	at org.openqa.selenium.firefox.XpiDriverService.start(XpiDriverService.java:118)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newFirefoxDriver(FirefoxDriverProvider.java:83)
+	at net.serenitybdd.core.webdriver.driverproviders.FirefoxDriverProvider.newInstance(FirefoxDriverProvider.java:58)
 	at net.thucydides.core.webdriver.WebDriverFactory.newWebdriverInstance(WebDriverFactory.java:127)
 	... 47 more
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:4029/status] to be available after 20003 ms
+Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:10542/hub/status] to be available after 45003 ms
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)
-	at org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:188)
-	... 53 more
+	at org.openqa.selenium.firefox.XpiDriverService.waitUntilAvailable(XpiDriverService.java:131)
+	... 56 more
 Caused by: java.util.concurrent.TimeoutException
 	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
 	at com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)
 	at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)
-	... 54 more
+	... 57 more
 ]]></system-err>
   </testcase>
 </testsuite>

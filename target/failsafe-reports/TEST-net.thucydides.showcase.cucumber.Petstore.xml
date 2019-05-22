@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.thucydides.showcase.cucumber.Petstore" time="0.001" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="net.thucydides.showcase.cucumber.Petstore" time="0" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="net.thucydides.showcase.cucumber.Petstore" time="0.001">
+  <testcase name="initializationError" classname="net.thucydides.showcase.cucumber.Petstore" time="0">
     <error message="Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\petstore" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\petstore
 	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
 	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)
@@ -95,7 +95,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
 ]]></error>
-    <system-err><![CDATA[27618 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
+    <system-err><![CDATA[62935 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - 
            __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
   _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
  (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
@@ -105,8 +105,8 @@
 
 TEST FAILED WITH ERROR: Add a leather jacket to the cart
 ---------------------------------------------------------------------
-27847 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Opens home page
-27848 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+63989 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - TEST FAILED AT STEP Opens home page
+63996 [main] ERROR net.thucydides.core.steps.ConsoleLoggingListener - Could not instantiate class org.openqa.selenium.firefox.FirefoxDriver
 ]]></system-err>
   </testcase>
 </testsuite>
