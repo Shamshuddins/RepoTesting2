@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Add stuff to the shopping cart test","Add a leather jacket to the cart","FAILURE","2019-05-22T16:05:51.282+05:30[Asia/Calcutta]","0.0","52.73"
+"Search by keyword","Search for articles by keyword","FAILURE","2019-05-22T16:07:02.181+05:30[Asia/Calcutta]","0.0","22.58"
+"Search by keyword","Search by shop name","FAILURE","2019-05-22T16:07:24.784+05:30[Asia/Calcutta]","0.0","60.68"
+"Search by keyword","Search for many articles by keyword","FAILURE","2019-05-22T16:08:25.468+05:30[Asia/Calcutta]","0.0","47.57"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0" tests="1" errors="1" skipped="0" failures="0">
+<testsuite name="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0.001" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="initializationError" classname="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0">
+  <testcase name="initializationError" classname="net.thucydides.showcase.cucumber.DisplayProductDetails" time="0.001">
     <error message="Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\search\display_product_details.feature" type="java.lang.IllegalArgumentException"><![CDATA[java.lang.IllegalArgumentException: Not a file or directory: E:\Git Repo\RepoTesting2\src\test\resources\features\search\display_product_details.feature
 	at cucumber.runtime.io.FileResourceIterator$FileIterator.<init>(FileResourceIterator.java:63)
 	at cucumber.runtime.io.FileResourceIterator.<init>(FileResourceIterator.java:28)

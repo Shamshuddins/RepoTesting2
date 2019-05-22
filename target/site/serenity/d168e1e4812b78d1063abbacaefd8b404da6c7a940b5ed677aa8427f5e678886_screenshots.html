@@ -117,7 +117,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-05-2019 12:17</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 22-05-2019 16:05</span>
     <br style="clear:left"/>
 </div>
 
@@ -158,9 +158,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span>
                             <span class="test-case-title">
-                                <span class="error-color">Add a leather jacket to the cart
+                                <span class="failing-color">Add a leather jacket to the cart
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -179,8 +179,8 @@
     <div id="contenttilttle">
             <div class="screenshotFailure panel panel-danger">
 
-                        <div class="panel-heading title="No such window exception: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=74.0.3729.169)  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\SHAMSH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}Session ID: a654242f273fb0d68d2b55af37f00cb4*** Element info: {Using=css selector, value=#search-query}">
-                            No such window exception: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=74.0.3729.169)  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-...
+                        <div class="panel-heading title="Element should be enabled exception: Expected enabled element was not enabled">
+                            Element should be enabled exception: Expected enabled element was not enabled
                         </div>
                 <div><!-- Stack trace -->
                     <button type="button" class="btn btn-danger" data-toggle="modal"
@@ -198,12 +198,12 @@
                                         aria-label="Close"><span aria-hidden="true">&times;</span>
                                 </button>
                                 <h4 class="modal-title" id="stacktraceModalLabel">
-                                    org.openqa.selenium.NoSuchWindowException
+                                    net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException
                                 </h4>
                             </div>
                             <div class="modal-body">
                                     <h5>
-                                        <pre>no such window: target window already closed<br>from unknown error: web view not found<br>  (Session info: chrome=74.0.3729.169)<br>  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)<br>Command duration or timeout: 0 milliseconds<br>Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'<br>System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.205', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'<br>Driver info: org.openqa.selenium.remote.RemoteWebDriver<br>Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 74.0.3729.6 (255758eccf3d24..., userDataDir: C:\Users\SHAMSH~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52342}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 74.0.3729.169, webStorageEnabled: true}<br>Session ID: a654242f273fb0d68d2b55af37f00cb4<br>*** Element info: {Using=css selector, value=#search-query}</pre>
+                                        <pre>Expected enabled element was not enabled</pre>
                                     </h5>
                                     net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java
                                     :25) <br>
@@ -212,6 +212,23 @@
                                     net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java
                                     :23) <br>
                             </div>
+
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: org.openqa.selenium.TimeoutException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Expected condition failed: waiting for By.cssSelector: #search-query to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                                    <pre>
+                                        net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java :25) <br>
+                                        net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java :28) <br>
+                                        net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java :23) <br>
+                                    </pre>
+                                </div>
 
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-default" data-dismiss="modal">
@@ -224,12 +241,13 @@
 
 
                 <div class="panel-body">
-                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                    <a href="pagesource8079192060035350917.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
                 </div>
             </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="ac78f9f1405c35a41b6dadbf01e5610770626b3974e5f71ffea4c237d22af23f.png" title="Opens home page: <span class='error-color'>ERROR</span>" width="1295"/>
+                <img src="3b2ce54296536f2330d7e6672fba771f5cfe3eda36de0e315a4f5b2a43e0f1cb.png" title="Opens home page" width="1295"/>
+                <img src="3b2ce54296536f2330d7e6672fba771f5cfe3eda36de0e315a4f5b2a43e0f1cb.png" title="Searches by keyword: leather jacket: <span class='failing-color'>FAILURE</span>" width="1295"/>
             </div>
         </div>
 

@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 71.14 sec <<< FAILURE! - in net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest
+add_a_leather_jacket_to_the_cart(net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest)  Time elapsed: 52.763 sec  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
+System info: host: 'DESKTOP-MS726TJ', ip: '172.16.0.134', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown
+	at net.thucydides.showcase.cucumber.pages.HomePage.enterSearchTerms(HomePage.java:25)
+	at net.thucydides.showcase.cucumber.steps.serenity.BuyerSteps.searches_by_keyword(BuyerSteps.java:28)
+	at net.thucydides.showcase.cucumber.junit.shopping_cart.AddStuffToTheShoppingCartTest.add_a_leather_jacket_to_the_cart(AddStuffToTheShoppingCartTest.java:23)
+
