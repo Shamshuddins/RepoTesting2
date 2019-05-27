@@ -8,11 +8,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     <name>Sample Serenity project using Cucumber and Serenity BDD</name>
-
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <serenity.version>2.0.49</serenity.version>
-        <serenity.maven.version>1.9.31</serenity.maven.version>
+        <serenity.maven.version>2.0.49</serenity.maven.version>
         <serenity.cucumber.version>1.9.38</serenity.cucumber.version>
     </properties>
 
@@ -93,7 +92,6 @@
     </dependencies>
     <build>
         <plugins>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-enforcer-plugin</artifactId>
